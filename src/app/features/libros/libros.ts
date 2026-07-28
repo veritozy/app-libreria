@@ -2,10 +2,11 @@ import { Component, inject, signal } from '@angular/core';
 import { LibroService } from '../../services/libro-service';
 import { Libro } from '../../model/libro';
 import { FormsModule } from '@angular/forms';
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'app-libros',
-  imports: [FormsModule],
+  imports: [FormsModule, RouterLink],
   templateUrl: './libros.html',
   styleUrl: './libros.css',
 })
