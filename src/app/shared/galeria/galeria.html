@@ -1,0 +1,9 @@
+
+<div class="grid gap-4">
+    @for (imagen of imagenes; track $index) {
+    <div>
+        <img class="h-auto max-w-full rounded-lg" [src]="imagen" alt="">
+    </div>
+    }
+</div>
+
