@@ -41,7 +41,7 @@ jobs:
       - name: Actualizar contenedor Angular en EC2
         uses: appleboy/ssh-action@v1.2.0
         with:
-          host: 98.84.165.64
+          host: 98.93.227.175
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
